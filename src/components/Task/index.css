@@ -1,0 +1,42 @@
+.main-bg{
+    padding: 30px;
+      font-family:sans-serif;
+    min-height: 100vh;
+    background-color: #edf5f7;
+}
+
+.form{
+    width:60%;
+    max-width:780px ;
+    border:solid 3px #5393a3 ;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.tag{
+    background-color: aliceblue; 
+    padding: 8px;
+    border-radius: 10px; 
+    margin: 8px;
+}
+.add_new_btn{
+    margin-bottom: 10px;
+}
+
+.table{
+    border:solid 3px #5393a3 ;
+    height:100%;
+    padding:2px;
+} 
+
+.cancel_btn{
+    margin-left: 30px;
+} 
+.delete_icon{
+    margin-left: 15px;
+     
+}
+.warning_msg{
+    color: red;
+    font-family:sans-serif
+}
