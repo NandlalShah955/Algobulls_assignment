@@ -16,18 +16,18 @@ const Task=()=>{
             id:uuid(),
             currentTime:"12-02-23",
             title:"Dummy1",
-            description:"This is Dummy data 1",
-            dueDate: '10-02-23' ,
-            tags:["IMPORTANT","LESS IMPORTANT"] ,
+            description:"This is Testing data 1",
+            dueDate: '15-04-23' ,
+            tags:["LESS IMPORTANT"] ,
             status:"WORKING"
         }, 
         {   
              id:uuid(),
             currentTime:"12-04-23",
             title:"Dummy2",
-            description:"This is Dummy data 2",
-            dueDate:"13-02-23",
-            tags:["MOST IMPORTANT","fail"] ,
+            description:"This is Testing data 2",
+            dueDate:"13-04-23",
+            tags:["fail"] ,
             status:"DONE"
         }
     ] 
@@ -457,7 +457,7 @@ const [showUpdateForm, setShowUpdateForm]= useState(false)
              
             
              {renderToDoForm()} 
-             <p>Note: <span className='warning_msg'>Below two rows are DUMMY Rows they are show for samples it cann't be edited. To test all functionalites please add rows using ADD button.Thank You!</span></p>
+             <p>Note: <span className='warning_msg'>Please note that the two rows below are for sample purposes only and cannot be edited. To test all functionalities, please use the 'ADD' button to add new rows. Thank you!</span></p>
              {renderTable(data)}
            
         </div>
